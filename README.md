@@ -10,3 +10,8 @@ This reads through a list of country data from a file and lets the user search f
 ---
 - Iterables
 - Callables
+
+## Authors 
+---
+- Kristi Luu
+- Amir Alaj
