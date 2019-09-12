@@ -1,11 +1,11 @@
-# Kristi Luu CIS41B -- Partner: Amir Alaj 
+# Kristi Luu; Partner: Amir Alaj 
 # A program that works with a list of countries of the world. 
 # The program reads each country data from a file and lets the user search for countries based on their data.
 from country import Country
 import csv
 from collections import defaultdict
 
-def getData(fname="lab1in.csv"):
+def getData(fname="country.csv"):
     '''Function that each line from the input file and create a Country object, storing that in a list'''
     try: 
         with open(fname) as csvfile:
